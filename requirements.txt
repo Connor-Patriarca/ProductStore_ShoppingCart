@@ -1,0 +1,25 @@
+The shop and the shopping cart should be created in a single index.html page and using the Static Template in Codesandbox.io
+
+The shop must be responsive, you should be using CSS Media Queries to make your shop page layout respond to different width screens, large desktop, tablets and smartphones.
+
+The shop layout/design must be coded using custom CSS, where you must utilize the CSS Grid Layout and/or CSS Flexbox layout techniques.
+
+The shop should have a minimum of 4 products.
+
+The shopping cart should be updated as seen in the demo video. When product counts update in the cart, the corresponding subtotal should update, the total count of items in cart should update and the total price should also update. 
+
+Every time an event happens, make sure to update localStorage to save your cart, this way when refreshing the page/app we can keep our items in the cart. 
+
+--------
+
+Total Project Point breakdown:
+
+25 points - Responsive webpage shop/store with 4 products and a shopping cart must be present. Each product has an image, a name, and a price, and a "Add to Cart" button. The shopping cart should have a list of the item name, price, quantity and subtotal and a Summary section of the cart should be present. This can all be done in HTML and CSS styles must utilize CSS Grid and/or Flexbox for these sections.
+
+25 points - When clicking a product's "Add to Cart" button, the corresponding product information gets dynamically added to Shopping Cart section of your webpage HTML page, along with a "Remove" button. 
+
+20 points - The Summary section "# of items in cart" and "Total price" of the shopping cart should dynamically update according to the number of products in the cart, and their subtotals.
+
+20 points - The shopping cart items should be saved in the browser's localStorage. And if we refresh/reload our store page, any existing products which were added to the Shopping Cart, should be dynamically added back into the Shopping Cart from localStorage.
+
+10 points - When clicking a product's "Remove" button in the Shopping Cart section, the corresponding product information should be removed from the Shopping Cart and the "Total" amount should be updated accordingly in the Summary section. 
